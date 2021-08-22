@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Activities | EduFi </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css>
+</head>
+
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src= "edufilogo1.JPG" alt="Logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+      <ul>
+       <li><a href="index.html">HOME</a></li>
+        <li><a href="materials.html">MATERIALS</a></li>
+        <li><a href="resources.html">RESOURCES</a></li>
+        <li><a href="activities.html">ACTIVITIES</a></li>
+        <li><a href="chatroom.html">WORKSHOPS</a></li>
+        <li><a href="about.html">ABOUT</a><li>
+    </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+  <h1>Activities</h1>
+  <p>We are currently only offering one activity. Our EduFi team is working on creating original activities for our users.</p>
+  <!--<a href="resources.html" class="hero-btn">Why should I care about personal finance?</a> -->
+</div>
+   </section>
+  <!-----------JavaScript for Toggle menu---------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+ 
+</script>
+
+
+<!-----ACTIVITIES----->
+<section class="activities"
+  <h1> Our Activities</h1>
+  
+    <div class="row">
+      <div class="activities-col">
+<img src="activity1.jpg">
+  <h3>MarketWatch</h3>
+    <p>MarketWatch is a stock simulator where you can learn about buying and trading stocks! You can create games and invite your friends to learn together in real-time!</p>
+</div>
+<a href="https://www.marketwatch.com/game" class="hero-btn" style="border-style: solid; color:black;">MarketWatch</a> 
+      <div class="activities-col">
+<!--<img src="activity2.jpg">
+  <h3>ACTIVITY TITLE 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<br><br>
+ <a 
+   <div class="activities-col">
+<img src="activity3.jpg">
+  <h3>ACTIVITY TITLE </h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+
+      </div> -->
+
+    </div>
+    <!----------BACKGROUND---------->
+ <head>
+      <style>
+         body {
+            background-image: url("gradient.jpeg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+      </style>
+   </head>
+  </body>
+
+</html>

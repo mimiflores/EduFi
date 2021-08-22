@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> EduFi Home </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css>
+</head>
+
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src= "edufilogo1.JPG" alt="Logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="materials.html">MATERIALS</a></li>
+        <li><a href="resources.html">RESOURCES</a></li>
+        <li><a href="activities.html">ACTIVITIES</a></li>
+        <li><a href="chatroom.html">WORKSHOPS</a></li>
+        <li><a href="about.html">ABOUT</a><li>
+      </ul>
+    </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+  <h1>EduFi</h1>
+  <p>A Beginner's Guide To Personal Finance Made By Teens For Teens</p>
+  <a href="materials.html" class="hero-btn" style="border-style: solid; color:black;">Why should I care about personal finance?</a> 
+</div>
+   </section>
+
+
+<!-----course------>
+<section class="course">
+  <h1> What Is Personal Finance?</h1>
+  <p1 style="text-align:center">Personal finance is comprised of different elements pertaining to investing, budgeting, saving, and debt. </p1>
+  <div class="row">
+      <div class="course-col">
+        <h3>Investing</h3>
+        <p>Investing is a way to potentially increase your money over time by generating income.</p>
+  </div>
+    <div class="row">
+
+      <div class="course-col">
+        <h3>Budgeting</h3>
+        <p>Budgeting is achieved by estimating your income and expenses over a certain period of time.</p>
+  </div>
+    <div class="row">
+      <div class="course-col">
+        <h3>Saving</h3>
+        <p>After all obligatory expenses have been paid, the surplus of funds is refered to as that individual's savings. Saving is also referred to when talking about the two types of bank accounts.</p>
+  </div>
+  <div class="row1">
+      <div class="course-col">
+        <h3>Debt</h3>
+        <p>Debt is considered anything that is owed to one person by another.</p>
+  </div>
+  
+</section>
+<section class="desc">
+  
+</section>
+
+
+
+
+
+   <!-----------JavaScript for Toggle menu---------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+ 
+</script>
+
+    <!----------BACKGROUND---------->
+ <head>
+      <style>
+         body {
+            background-image: url("gradient.jpeg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+      </style>
+   </head>
+  </body>
+
+</html>
