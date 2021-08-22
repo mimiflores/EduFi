@@ -1,0 +1,15 @@
+## Inspiration
+Covid-19 brought the underlying financial insecurity of Americans to light. Financial knowledge & wellbeing impact the quality of education, housing, healthcare, & life, but only 24% of millennials display basic financial literacy. We want teens to learn more about finance so that they can be better prepared for their future.
+## What it does
+EduFi is a free digital center to help teens learn the basics of personal finance. It allows teens access to different exclusive features to expand their financial knowledge and was specifically designed and coded by teens, for teens. There are six different tabs on the website, Home, Materials, Resources, Activities, Workshops, and About. On the Home page, you can find basic information about the website and personal finance. On the Materials page, you'll find articles, templates, and descriptions all written and created by us specifically for EduFi. On the Resources page, you'll find links to all sorts of external resources to further your knowledge. On the Activities page, you can find a link to a game you can play to learn about buying and trading stocks. The Workshops page has a feature similar to Zoom that we will use for hosting workshops in the future. Finally, the About page includes information about the creators. 
+
+## How we built it
+We used repl to make EduFi. The languages we used were HTML, CSS, and JavaScript. We also used two different APIs, Jitsi and Socket.io.
+## Challenges we ran into
+A few challenges we ran into were coding the workshops and materials pages. Using the APIs was a bit difficult for us, but we worked together to resolve the issue. Another challenge was time management and getting everything done on time. 
+## Accomplishments that we're proud of
+We are very proud of our workshop feature and the materials page where we included all of our original work. However, what we are most proud of is just finishing the project in general and having fun with it. 
+## What we learned
+We learned a lot about not only coding but time management and communication. This was definitely not a one-person job, so it was important that we displayed our teamworking skills to complete the project. 
+## What's next for EduFi
+In the future, we hope to expand EduFi by hosting workshops and doing a weekly or bimonthly blog post about a topic relating to finance. Our goal is to reach as many teens as we can so that our generation can have the right skills to succeed. 
